@@ -3,10 +3,10 @@
   <asset>
     <contributor>
       <author>Blender User</author>
-      <authoring_tool>Blender 2.78.0 commit date:2016-10-24, commit time:12:20, hash:e8299c8</authoring_tool>
+      <authoring_tool>Blender 2.78.0</authoring_tool>
     </contributor>
-    <created>2017-07-14T02:49:26</created>
-    <modified>2017-07-14T02:49:26</modified>
+    <created>2017-07-14T04:21:21</created>
+    <modified>2017-07-14T04:21:21</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -102,21 +102,21 @@
     </light>
   </library_lights>
   <library_images>
-    <image id="base_link_texture_png" name="base_link_texture_png">
-      <init_from>base_link_texture.png</init_from>
+    <image id="link_base_texture_png" name="link_base_texture_png">
+      <init_from>link_base_texture.png</init_from>
     </image>
   </library_images>
   <library_effects>
     <effect id="Material_001-effect">
       <profile_COMMON>
-        <newparam sid="base_link_texture_png-surface">
+        <newparam sid="link_base_texture_png-surface">
           <surface type="2D">
-            <init_from>base_link_texture_png</init_from>
+            <init_from>link_base_texture_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="base_link_texture_png-sampler">
+        <newparam sid="link_base_texture_png-sampler">
           <sampler2D>
-            <source>base_link_texture_png-surface</source>
+            <source>link_base_texture_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -128,7 +128,7 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <texture texture="base_link_texture_png-sampler" texcoord="UVMap"/>
+              <texture texture="link_base_texture_png-sampler" texcoord="UVMap"/>
             </diffuse>
             <specular>
               <color sid="specular">1 1 1 1</color>
