@@ -102,21 +102,21 @@
     </light>
   </library_lights>
   <library_images>
-    <image id="rink_r_texture_png" name="rink_r_texture_png">
-      <init_from>rink_r_texture.png</init_from>
+    <image id="link_r_texture_png" name="link_r_texture_png">
+      <init_from>link_r_texture.png</init_from>
     </image>
   </library_images>
   <library_effects>
     <effect id="Material_001-effect">
       <profile_COMMON>
-        <newparam sid="rink_r_texture_png-surface">
+        <newparam sid="link_r_texture_png-surface">
           <surface type="2D">
-            <init_from>rink_r_texture_png</init_from>
+            <init_from>link_r_texture_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="rink_r_texture_png-sampler">
+        <newparam sid="link_r_texture_png-sampler">
           <sampler2D>
-            <source>rink_r_texture_png-surface</source>
+            <source>link_r_texture_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -128,7 +128,7 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <texture texture="rink_r_texture_png-sampler" texcoord="UVMap"/>
+              <texture texture="link_r_texture_png-sampler" texcoord="UVMap"/>
             </diffuse>
             <specular>
               <color sid="specular">1 1 1 1</color>
