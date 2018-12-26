@@ -10,3 +10,6 @@ At least, every series has STL & COLLADA models and these files are used as [ROS
 
 ### SDA5  
 [YASKAWA SDA5 page link](https://www.yaskawa.eu.com/en/products/robotic/motoman-robots/productdetail/product/sda5f/)
+
+### SIA20
+[YASKAWA SIA20 page link](https://www.yaskawa.eu.com/en/products/robotic/motoman-robots/productdetail/product/sia20f/)
